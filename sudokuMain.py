@@ -47,7 +47,9 @@ if biggest.size != 0:
     imgWarpColored = cv2.cvtColor(imgWarpColored,cv2.COLOR_BGR2GRAY)
 
 
+
     #### 4. SPLIT THE IMAGE AND FIND EACH DIGIT AVAILABLE
+    
     imgSolvedDigits = imgBlank.copy()
     boxes = splitBoxes(imgWarpColored)
     print(len(boxes))

@@ -5,7 +5,7 @@ Solving Sudoku Puzzle using Computer Vision and Backtracking Algorithm
 
 ## Installations
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install opencv and numpy
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install opencv, numpy and tensorflow
 
 ```bash
 pip install numpy
